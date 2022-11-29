@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Testcases Result" verbose="1" >
+  <test name="Testscripts" >
+    <packages>
+    <package name="com.angola.testscripts"></package>
+    </packages>
+  </test>
+ 
+  
+</suite>

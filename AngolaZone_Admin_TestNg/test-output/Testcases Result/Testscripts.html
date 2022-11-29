@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>TestNG:  Testscripts</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Testscripts</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 28 20:22:33 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>491 seconds (491008 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.angola.testscripts.TC005.ClickonCategories()'><b>ClickonCategories</b><br>Test class: com.angola.testscripts.TC005</td>
+<td></td>
+<td>19</td>
+<td>com.angola.testscripts.TC005@5b1669c0</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC017.ClickOnActiveAds()'><b>ClickOnActiveAds</b><br>Test class: com.angola.testscripts.TC017</td>
+<td></td>
+<td>16</td>
+<td>com.angola.testscripts.TC017@173ed316</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC020.ClickOnPushNotification()'><b>ClickOnPushNotification</b><br>Test class: com.angola.testscripts.TC020</td>
+<td></td>
+<td>9</td>
+<td>com.angola.testscripts.TC020@17f62e33</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC011.ClickonUpdate()'><b>ClickonUpdate</b><br>Test class: com.angola.testscripts.TC011</td>
+<td></td>
+<td>21</td>
+<td>com.angola.testscripts.TC011@2eae8e6e</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC019.ClickOnBanner()'><b>ClickOnBanner</b><br>Test class: com.angola.testscripts.TC019</td>
+<td></td>
+<td>10</td>
+<td>com.angola.testscripts.TC019@74ea2410</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC016.ClickOnNewAds()'><b>ClickOnNewAds</b><br>Test class: com.angola.testscripts.TC016</td>
+<td></td>
+<td>13</td>
+<td>com.angola.testscripts.TC016@69e153c5</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC021.ClickOnLogout()'><b>ClickOnLogout</b><br>Test class: com.angola.testscripts.TC021</td>
+<td></td>
+<td>8</td>
+<td>com.angola.testscripts.TC021@76b1e9b8</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC002.EnterEmailID()'><b>EnterEmailID</b><br>Test class: com.angola.testscripts.TC002</td>
+<td></td>
+<td>3</td>
+<td>com.angola.testscripts.TC002@53fe15ff</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC004.ClickOnLogin()'><b>ClickOnLogin</b><br>Test class: com.angola.testscripts.TC004</td>
+<td></td>
+<td>8</td>
+<td>com.angola.testscripts.TC004@1530c739</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC009.AddCategoryChecked()'><b>AddCategoryChecked</b><br>Test class: com.angola.testscripts.TC009</td>
+<td></td>
+<td>35</td>
+<td>com.angola.testscripts.TC009@15bb5034</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC015.ClickOnAdListing()'><b>ClickOnAdListing</b><br>Test class: com.angola.testscripts.TC015</td>
+<td></td>
+<td>9</td>
+<td>com.angola.testscripts.TC015@7674f035</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC001.EnterUrl()'><b>EnterUrl</b><br>Test class: com.angola.testscripts.TC001</td>
+<td></td>
+<td>0</td>
+<td>com.angola.testscripts.TC001@51c668e3</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC003.EnterPassword()'><b>EnterPassword</b><br>Test class: com.angola.testscripts.TC003</td>
+<td></td>
+<td>3</td>
+<td>com.angola.testscripts.TC003@449a4f23</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC012.ClickOnUser()'><b>ClickOnUser</b><br>Test class: com.angola.testscripts.TC012</td>
+<td></td>
+<td>13</td>
+<td>com.angola.testscripts.TC012@8f2ef19</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC014.ClickOnBlockedUSer()'><b>ClickOnBlockedUSer</b><br>Test class: com.angola.testscripts.TC014</td>
+<td></td>
+<td>21</td>
+<td>com.angola.testscripts.TC014@2cf3d63b</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC013.ClickOnActiveUser()'><b>ClickOnActiveUser</b><br>Test class: com.angola.testscripts.TC013</td>
+<td></td>
+<td>17</td>
+<td>com.angola.testscripts.TC013@470734c3</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC018.ClickOnDeactivateAds()'><b>ClickOnDeactivateAds</b><br>Test class: com.angola.testscripts.TC018</td>
+<td></td>
+<td>20</td>
+<td>com.angola.testscripts.TC018@25ce9dc4</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC010.clickOnEdit()'><b>clickOnEdit</b><br>Test class: com.angola.testscripts.TC010</td>
+<td></td>
+<td>14</td>
+<td>com.angola.testscripts.TC010@4b741d6d</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC008.AddCategories()'><b>AddCategories</b><br>Test class: com.angola.testscripts.TC008</td>
+<td></td>
+<td>13</td>
+<td>com.angola.testscripts.TC008@7d0b7e3c</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC007.EnterServices()'><b>EnterServices</b><br>Test class: com.angola.testscripts.TC007</td>
+<td></td>
+<td>15</td>
+<td>com.angola.testscripts.TC007@6e9175d8</td></tr>
+<tr>
+<td title='com.angola.testscripts.TC006.ClickOnSearch()'><b>ClickOnSearch</b><br>Test class: com.angola.testscripts.TC006</td>
+<td></td>
+<td>16</td>
+<td>com.angola.testscripts.TC006@78e4deb0</td></tr>
+</table><p>
+</body>
+</html>
